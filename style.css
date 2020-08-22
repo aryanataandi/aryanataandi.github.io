@@ -1,0 +1,86 @@
+.jumbotron {
+    background: none;
+}
+
+section {
+    min-height: 480px;
+}
+
+.nav-link {
+    transition: 0.4s;
+}
+
+.nav-link:hover {
+    color: #2430FF !important; 
+}
+
+.accent {
+    background-color: #2430FF;
+}
+
+.accent:hover {
+    background-color: #2430FF;
+    box-shadow: 0px 0px 15px #2430FF;
+}
+
+.git:hover {
+    box-shadow: 0px 0px 15px gray;
+}
+
+.info-panel {
+    border-radius: 8px;
+}
+
+/* Icons Hover */
+
+.info-panel img {
+    width: 60px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    transition: 0.2s;
+}
+
+.info-panel #custom:hover {
+    box-shadow: 0 0 12px #AF15FF;
+}
+
+.info-panel #experience:hover {
+    box-shadow: 0 0 12px #2430FF;
+}
+
+.info-panel #updates:hover {
+    box-shadow: 0 0 12px #FF008C;
+}
+
+/* End of Icons Hover */
+
+footer {
+    margin-top: 20px;
+}
+
+footer p {
+    color: #3d3d3d;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Large Device Version */
+@media (min-width: 992px) { 
+    .hero {
+        width: 130%;
+        margin-left: -70px;
+    }
+ }
+
+/* Desktop Version */
+@media (min-width: 1200px) { 
+    .hero {
+        width: 130%;
+        margin-top: -70px;
+        margin-left: -70px;
+    }
+
+    footer {
+        margin-top: -40px;
+    }
+ }
