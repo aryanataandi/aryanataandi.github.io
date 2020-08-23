@@ -60,8 +60,25 @@ footer {
 
 footer p {
     color: #3d3d3d;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* About Page */
+
+#avatar {
+    width: 200px;
+    border-radius: 100px;
+}
+
+.attribute a {
+    text-decoration: none;
+}
+
+.social-media-icons {
+    margin-left: 6px;
+    margin-right: 6px;
+    width: 20px;
 }
 
 /* Large Device Version */
