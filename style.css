@@ -14,6 +14,14 @@ section {
     color: #2430FF !important; 
 }
 
+#donate {
+    display: none;
+}
+
+#disabled-donate {
+    display: none;
+}
+
 .accent {
     background-color: #2430FF;
 }
@@ -88,6 +96,38 @@ footer p {
         width: 130%;
         margin-left: -70px;
     }
+
+    #donate {
+        color: #3d3d3d;
+        background-color: rgb(248, 248, 248);
+        padding-right: 20px;
+        padding-left: 20px;
+        border-radius: 6px;
+        display: inline;
+    }
+
+    #donate:hover {
+        box-shadow: 0px 0px 12px rgb(28, 241, 135);
+        color: white;
+        background-color: rgb(28, 241, 135);
+    }
+
+    #disabled-donate {
+        color: grey;
+        background-color: rgb(248, 248, 248);
+        padding-right: 20px;
+        padding-left: 20px;
+        border-radius: 6px;
+        display: inline;
+    }
+
+    .donate-sm {
+        display: none;
+    }
+
+    footer {
+        margin-top: -40px;
+    }
  }
 
 /* Desktop Version */
@@ -101,4 +141,33 @@ footer p {
     footer {
         margin-top: -40px;
     }
+        
+    #donate {
+        color: #3d3d3d;
+        background-color: rgb(248, 248, 248);
+        padding-right: 20px;
+        padding-left: 20px;
+        border-radius: 6px;
+        display: inline;
+    }
+
+    #donate:hover {
+        box-shadow: 0px 0px 12px rgb(28, 241, 135);
+        color: white;
+        background-color: rgb(28, 241, 135);
+    }
+
+    #disabled-donate {
+        color: grey;
+        background-color: rgb(248, 248, 248);
+        padding-right: 20px;
+        padding-left: 20px;
+        border-radius: 6px;
+        display: inline;
+    }
+
+    .donate-sm {
+        display: none;
+    }
+    
  }
