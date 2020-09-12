@@ -155,6 +155,10 @@ footer p {
         margin-left: -70px;
     }
 
+    .info-panel {
+        margin: auto;
+    }
+
     footer {
         margin-top: -40px;
     }
