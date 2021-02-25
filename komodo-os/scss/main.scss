@@ -1,22 +1,22 @@
 // * Variable
 @font-face {
   font-family: "Made Tommy Light";
-  src: url("/assets/font/MADE\ TOMMY\ Light.otf");
+  src: url("../assets/font/MADE\ TOMMY\ Light.otf");
 }
 
 @font-face {
   font-family: "Made Tommy Regular";
-  src: url("/assets/font/MADE\ TOMMY\ Regular.otf");
+  src: url("../assets/font/MADE\ TOMMY\ Regular.otf");
 }
 
 @font-face {
   font-family: "Made Tommy Medium";
-  src: url("/assets/font/MADE\ TOMMY\ Medium.otf");
+  src: url("../assets/font/MADE\ TOMMY\ Medium.otf");
 }
 
 @font-face {
   font-family: "Made Tommy Bold";
-  src: url("/assets/font/MADE\ TOMMY\ Bold.otf");
+  src: url("../assets/font/MADE\ TOMMY\ Bold.otf");
 }
 
 $madeLight: "Made Tommy Light", sans-serif;
@@ -224,7 +224,7 @@ a {
   line-height: 150%;
 
   div & {
-    background-image: url("/assets/quotes.svg");
+    background-image: url("../assets/quotes.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-clip: padding-box;
