@@ -1,0 +1,32 @@
+body {
+  cursor: default;
+  font-family: "Inter", Helvetica, sans-serif;
+}
+
+body .container {
+  margin: 40vh 20vw;
+}
+
+body .container p {
+  margin-top: -0.9em;
+  font-size: 0.94em;
+}
+
+body footer p {
+  text-align: center;
+}
+
+body.night {
+  background-color: black;
+}
+
+body.night h1,
+body.night h2,
+body.night h3,
+body.night h4,
+body.night h5,
+body.night h6,
+body.night p {
+  color: whitesmoke;
+}
+/*# sourceMappingURL=main.css.map */
