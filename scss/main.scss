@@ -2,8 +2,10 @@
 $font: "Inter", Helvetica, sans-serif;
 
 body {
+  background-color: rgb(240, 250, 255);
   cursor: default;
   font-family: $font;
+  color: rgb(14, 14, 14);
 
   .container {
     margin: 40vh 20vw;
@@ -14,13 +16,22 @@ body {
     }
   }
 
-  footer p {
-    text-align: center;
+  footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+
+    p {
+      margin: 0 auto;
+      width: 100%;
+      padding: 20px 0;
+      text-align: center;
+    }
   }
 }
 
 body.night {
-  background-color: black;
+  background-color: rgb(10, 12, 22);
 
   h1,
   h2,

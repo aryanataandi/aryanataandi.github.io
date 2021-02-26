@@ -1,6 +1,8 @@
 body {
+  background-color: #f0faff;
   cursor: default;
   font-family: "Inter", Helvetica, sans-serif;
+  color: #0e0e0e;
 }
 
 body .container {
@@ -12,12 +14,21 @@ body .container p {
   font-size: 0.94em;
 }
 
+body footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
 body footer p {
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px 0;
   text-align: center;
 }
 
 body.night {
-  background-color: black;
+  background-color: #0a0c16;
 }
 
 body.night h1,

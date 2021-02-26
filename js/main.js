@@ -19,3 +19,10 @@ let dateObj = new Date();
 let year = dateObj.getUTCFullYear();
 
 document.getElementById("year").innerHTML = year;
+
+// Night-mode
+var nightMode = new NightMode({
+    evening: new DayTime(17, 30),
+    morning: new DayTime(6, 0),
+    refreshIntervalInSeconds: 30
+});
