@@ -1,28 +1,39 @@
-// Random sent
-sentences = [
-    "Did you lost?",
-    "You are not supposed to be here.",
-    "Go away!",
-    "This is not a right place for you.",
-    "I'm busy.",
-    "Nothing here.",
-    "Curious about me? lol",
-    "Bye."
-];
-
-const random = [Math.floor ( Math.random() * sentences.length )];
-
-document.getElementById("content").innerHTML = sentences[random];
-
-// Year
-let dateObj = new Date();
-let year = dateObj.getUTCFullYear();
-
-document.getElementById("year").innerHTML = year;
-
-// Night-mode
-var nightMode = new NightMode({
-    evening: new DayTime(17, 30),
-    morning: new DayTime(6, 0),
-    refreshIntervalInSeconds: 30
+// * Preloader
+$(document).ready(function(){
+  $("#preloader").fadeOut();
 });
+
+// * AOS
+AOS.init({
+  duration: 600,
+  once: true
+});
+
+// * Scroll to top
+let scrollButton = document.getElementById("scroll-top");
+let navbar = document.getElementById("navbar");
+
+function scrollFunction() {
+    if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
+        scrollButton.style.opacity = "100";
+        scrollButton.style.cursor = "pointer";
+        navbar.classList.add("shadow");
+    } else {
+        scrollButton.style.opacity = "0";
+        scrollButton.style.cursor = "default";
+        navbar.classList.remove("shadow");
+    }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+  navbarDropdown.classList.remove('show');
+}
+
+// * Responsive navbar
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  scrollFunction();
+  responsiveNav();
+}
