@@ -1,0 +1,119 @@
+[
+    {
+        "brand" : "Asus",
+        "device" : "Zenfone Max Pro M1",
+        "codename" : "X00TD",
+        "maintainer" : "Developer",
+        "github" : "https://github.com/developer",
+        "changelog" : "",
+        "download" : "https://sourceforge.net/"
+    },
+    {
+        "brand" : "Asus",
+        "device" : "Zenfone Max Pro M2",
+        "codename" : "X00BD",
+        "maintainer" : "Developer",
+        "github" : "https://github.com/developer",
+        "changelog" : "",
+        "download" : "https://sourceforge.net/"
+    },
+    {
+        "brand" : "",
+        "device" : "Realme 5 Pro",
+        "codename" : "RMX5",
+        "maintainer" : "Developer",
+        "github" : "https://github.com/developer",
+        "changelog" : "",
+        "download" : "https://sourceforge.net/"
+    },
+    {
+        "brand" : "",
+        "device" : "Realme XT",
+        "codename" : "RMXT",
+        "maintainer" : "Developer",
+        "github" : "https://github.com/developer",
+        "changelog" : "",
+        "download" : "https://sourceforge.net/"
+    },
+    {
+        "brand" : "Xiaomi",
+        "device" : "Redmi Note 4",
+        "codename" : "Mido",
+        "maintainer" : "Developer",
+        "github" : "https://github.com/developer",
+        "changelog" : "",
+        "download" : "https://sourceforge.net/"
+    },
+    {
+        "brand" : "Xiaomi",
+        "device" : "Redmi Note 5",
+        "codename" : "Whyred",
+        "maintainer" : "Developer",
+        "github" : "https://github.com/developer",
+        "changelog" : "",
+        "download" : "https://sourceforge.net/"
+    },
+    {
+        "brand" : "Xiaomi",
+        "device" : "Redmi Note 7",
+        "codename" : "Lavender",
+        "maintainer" : "Developer",
+        "github" : "https://github.com/developer",
+        "changelog" : "",
+        "download" : "https://sourceforge.net/"
+    },
+    {
+        "brand" : "Xiaomi",
+        "device" : "Redmi Note 8",
+        "codename" : "Ginkgo",
+        "maintainer" : "Developer",
+        "github" : "https://github.com/developer",
+        "changelog" : "",
+        "download" : "https://sourceforge.net/"
+    },
+    {
+        "brand" : "Xiaomi",
+        "device" : "Redmi Note 8 Pro",
+        "codename" : "Begonia",
+        "maintainer" : "Developer",
+        "github" : "https://github.com/developer",
+        "changelog" : "",
+        "download" : "https://sourceforge.net/"
+    },
+    {
+        "brand" : "Xiaomi",
+        "device" : "Redmi Note 9",
+        "codename" : "Merlin",
+        "maintainer" : "Developer",
+        "github" : "https://github.com/developer",
+        "changelog" : "",
+        "download" : "https://sourceforge.net/"
+    },
+    {
+        "brand" : "Xiaomi",
+        "device" : "Redmi Note 9 Pro",
+        "codename" : "Joyeuse",
+        "maintainer" : "Developer",
+        "github" : "https://github.com/developer",
+        "changelog" : "",
+        "download" : "https://sourceforge.net/"
+    },
+    {
+        "brand" : "Oneplus",
+        "device" : "7T",
+        "codename" : "OP7T",
+        "maintainer" : "Developer",
+        "github" : "https://github.com/developer",
+        "changelog" : "",
+        "download" : "https://sourceforge.net/"
+    },
+    {
+        "brand" : "Oneplus",
+        "device" : "Nord",
+        "codename" : "Nord",
+        "maintainer" : "Developer",
+        "github" : "https://github.com/developer",
+        "changelog" : "",
+        "download" : "https://sourceforge.net/"
+    }
+]

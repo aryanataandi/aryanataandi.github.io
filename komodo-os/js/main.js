@@ -1,8 +1,12 @@
+// * Preloader
+$(document).ready(function(){
+  $("#preloader").fadeOut();
+});
+
 // * AOS
 AOS.init({
-    duration: 600,
-    easing: "ease-out",
-    once: true
+  duration: 600,
+  once: true
 });
 
 // * Scroll to top
@@ -22,9 +26,9 @@ function scrollFunction() {
 }
 
 function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-    navbarDropdown.classList.remove('show');
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+  navbarDropdown.classList.remove('show');
 }
 
 // * Responsive navbar
@@ -32,28 +36,4 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   scrollFunction();
   responsiveNav();
-}
-
-function responsiveNav() {
-    var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
-    document.getElementById("navbar").style.opacity = "1";
-  } else {
-    document.getElementById("navbar").style.top = "-100px";
-    document.getElementById("navbar").style.opacity = "0";
-  }
-  prevScrollpos = currentScrollPos;
-}
-
-// * Collapse navbar
-let navbarDropdown = document.getElementById('navbarNavDropdown');
-
-function collapse() {
-  navbarDropdown.classList.remove('show');
-  setTimeout(navbarHide, 1000);
-}
-
-function navbarHide() {
-  document.getElementById("navbar").style.top = "-100px";
 }

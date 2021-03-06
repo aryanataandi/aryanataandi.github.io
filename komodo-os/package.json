@@ -1,0 +1,22 @@
+{
+  "name": "komodo-web",
+  "version": "1.0.0",
+  "description": "Komodo OS Official Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aryanataandi/komodo-web.git"
+  },
+  "author": "Aryanata Andipradana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aryanataandi/komodo-web/issues"
+  },
+  "homepage": "https://github.com/aryanataandi/komodo-web#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta2"
+  }
+}
