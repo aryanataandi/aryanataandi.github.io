@@ -1,174 +1,221 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/favicon.ico"/>
-    <!-- AOS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- Fontawesome -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <!-- Fonts Google -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <!-- My CSS -->
-    <link rel="stylesheet" href="scss/main.css">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Komodo OS</title>
-  </head>
-  <body class="bg-light">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/favicon.ico" />
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!-- Fonts Google -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
+  <!-- My CSS -->
+  <link rel="stylesheet" href="scss/main.css">
 
-    <div id="preloader"></div>
+  <title>Komodo OS</title>
+</head>
 
-    <!-- ====================
+<body>
+
+  <div id="preloader"></div>
+
+  <!-- ====================
           ? Navbar
     ========================= -->
-    <nav class="navbar navbar-expand-lg navbar-light py-3 bg-white shadow">
-      <div class="container px-4 justify-content-start">
-        <a href="index.html" class="btn btn-primary d-flex rounded-3">
-          <i class="fas fa-angle-left text-white fa-lg my-auto"></i>
-          <div class="px-3 fw-bold fs-5">Back</div>
-        </a>
-      </div>
-    </nav>
-
-       <!-- ? Section 1 : Team -->
-       <section id="section-1"> 
-        <div class="container my-4">
-          <div class="row d-flex align-items-center">
-            <div class="col-12 col-md-7 col-lg-6 order-md-1 order-2" data-aos="fade-up">
-              <div class="mt-2 text-md-start text-center">
-                <h1 class="display-5 display-md-4">
-                  Our Team
-                </h1>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- ? Section 2 : Team -->
-      <section id="section-5" class="bg-light pb-5">
-        <div class="bg-primary"></div>
-        <div class="container pb-5">
-          <div class="row row-cols-2 row-cols-lg-4 g-4" data-aos="fade-up" data-aos-offset="280">
-            <!-- TODO Duplicate these line -->
-            <div class="col"> <!-- * Card -->
-              <div class="bg-white h-100 shadow rounded">
-                <img src="https://avatars.githubusercontent.com/Kry9toN" class="card-img-top" alt="Krypton">
-                <div class="card-body text-center">
-                  <h5 class="fw-bold">Dhimas Bagus</h5>
-                  <p class="small text-muted text-truncate">Founder</p>
-                  <a href="https://github.com/Kry9toN" target="_blank"><i class="fab fa-github fa-lg text-dark mx-1"></i></a>
-                  <a href="https://t.me/Kry9toN" target="_blank"><i class="fab fa-telegram fa-lg mx-1"></i></a>
-                </div>
-              </div>
-            </div> <!-- * End of card -->
-            <div class="col"> <!-- * Card -->
-              <div class="bg-white h-100 shadow rounded">
-                <img src="https://avatars.githubusercontent.com/trisfaizal" class="card-img-top" alt="Trisf">
-                <div class="card-body text-center">
-                  <h5 class="fw-bold">Tris Fang</h5>
-                  <p class="small text-muted text-truncate">Project Manager | Core Dev</p>
-                  <a href="https://github.com/trisfaizal" target="_blank"><i class="fab fa-github fa-lg text-dark mx-1"></i></a>
-                  <a href="https://t.me/trisf" target="_blank"><i class="fab fa-telegram fa-lg mx-1"></i></a>
-                </div>
-              </div>
-            </div> <!-- * End of card -->
-            <div class="col"> <!-- * Card -->
-              <div class="bg-white h-100 shadow rounded">
-                <img src="https://avatars.githubusercontent.com/goodmeow" class="card-img-top" alt="Goodmeow">
-                <div class="card-body text-center">
-                  <h5 class="fw-bold">Harun Al Rasyid</h5>
-                  <p class="small text-muted text-truncate">Core Dev</p>
-                  <a href="https://github.com/goodmeow" target="_blank"><i class="fab fa-github fa-lg text-dark mx-1"></i></a>
-                  <a href="https://t.me/Aarunalr" target="_blank"><i class="fab fa-telegram fa-lg mx-1"></i></a>
-                </div>
-              </div>
-            </div> <!-- * End of card -->
-            <div class="col"> <!-- * Card -->
-              <div class="bg-white h-100 shadow rounded">
-                <img src="https://avatars.githubusercontent.com/najahiiii" class="card-img-top" alt="Najahi">
-                <div class="card-body text-center">
-                  <h5 class="fw-bold">Najahi</h5>
-                  <p class="small text-muted text-truncate">Core Dev</p>
-                  <a href="https://github.com/najahiiii" target="_blank"><i class="fab fa-github fa-lg text-dark mx-1"></i></a>
-                  <a href="https://t.me/Najahiii" target="_blank"><i class="fab fa-telegram fa-lg mx-1"></i></a>
-                </div>
-              </div>
-            </div> <!-- * End of card -->
-            <div class="col"> <!-- * Card -->
-              <div class="bg-white h-100 shadow rounded">
-                <img src="https://avatars.githubusercontent.com/Gnonymous7" class="card-img-top" alt="Gnonymous7">
-                <div class="card-body text-center">
-                  <h5 class="fw-bold">Gnonymous</h5>
-                  <p class="small text-muted text-truncate">UI Designer</p>
-                  <a href="https://github.com/Gnonymous7" target="_blank"><i class="fab fa-github fa-lg text-dark mx-1"></i></a>
-                  <a href="https://t.me/ImYourGege" target="_blank"><i class="fab fa-telegram fa-lg mx-1"></i></a>
-                </div>
-              </div>
-            </div> <!-- * End of card -->
-            <div class="col"> <!-- * Card -->
-              <div class="bg-white h-100 shadow rounded">
-                <img src="https://avatars.githubusercontent.com/aryanataandi" class="card-img-top" alt="Aryanata">
-                <div class="card-body text-center">
-                  <h5 class="fw-bold">Aryanata</h5>
-                  <p class="small text-muted text-truncate">Web Developer | Designer</p>
-                  <a href="https://github.com/aryanataandi" target="_blank"><i class="fab fa-github fa-lg text-dark mx-1"></i></a>
-                  <a href="https://t.me/aryanata_andi" target="_blank"><i class="fab fa-telegram fa-lg mx-1"></i></a>
-                </div>
-              </div>
-            </div> <!-- * End of card -->
-          </div>
-        </div>
-      </section>
-
-      <!-- ? Footer -->
-      <footer class="bg-dark text-white">
-        <div class="container py-5 px-4 px-md-0">
-          <div class="row">
-            <div class="col-12 col-md-4 d-flex my-auto text-center text-sm-start">
-              <div class="w-100">
-                <img src="assets/brand.svg" alt="komodo os" draggable="false">
-                <p class="text-muted mt-2">Custom ROM with all their local wisdom.</p>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 text-center text-sm-start text-md-center my-3 my-sm-0">
-              <a href="http://xda-developers.com/">XDA Thread</a>
-              <a href="http://t.me/komodosrom/">Telegram Channel</a>
-              <a href="http://t.me/komodosgroup/">Need Help?</a>
-              <a href="http://t.me/komodosgroup/">Screenshots</a>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 text-center my-3">
-              <p id="maintainer">Want to build the ROM officialy?</p>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdjPwX5xveh4qN2sgX_csnXXyCQ3qnwGUCM9lLUiDg4bOMVkA/viewform" target="_blank" class="btn btn-primary px-4 text-dark">Join Us!</a>
-            </div>
-          </div>
-        </div>
-        <div class="container px-4">
-          <div class="text-sm-center py-3">
-            <p id="copyright" class="text-muted small">&copy; Komodo OS 2021 - by <a id="web-dev" href="https://github.com/aryanataandi/komodo-web">Aryanata</a></p>
-          </div>
-        </div>
-      </footer>
-
-      <!-- ? Scroll to top Button -->
-      <button onclick="topFunction()" class="rounded-circle shadow-lg" id="scroll-top" title="Go to top">
-        <i class="fas fa-arrow-up"></i>
+  <nav id="navbar" class="navbar navbar-index navbar-expand-lg navbar-light py-3 bg-white py-md-4">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/brand.svg" alt="komodo os" draggable="false">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
       </button>
+      <div class="collapse navbar-collapse justify-content-end text-center" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item py-2 py-lg-0">
+            <a class="nav-link" aria-current="page" href="index.html#section-1" onclick="topFunction()">Home</a>
+          </li>
+          <li class="nav-item py-2 py-lg-0">
+            <a class="nav-link" href="index.html#link-2" onclick="collapse()">About</a>
+          </li>
+          <li class="nav-item py-2 py-lg-0">
+            <a class="nav-link" href="index.html#sec-3" onclick="collapse()">Feature</a>
+          </li>
+          <li class="nav-item py-2 py-lg-0">
+            <a class="nav-link" href="team.html" onclick="collapse()">Team</a>
+          </li>
+          <li class="nav-item d-inline d-lg-none py-2 py-lg-0">
+            <a class="nav-link" href="index.html#section-6" onclick="collapse()">Donate</a>
+          </li>
+          <li class="nav-item d-none d-lg-inline">
+            <a class="nav-link btn btn-primary btn-donate px-4" href="index.html#section-6"
+              onclick="collapse()">Donate</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <!-- Bootstrap Bundle with Popper -->
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- AOS -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <!-- My Javascript -->
-    <script src="js/main.js"></script>
-    <script src="js/index.js"></script>
+  <!-- ? Section 1 : Team -->
+  <section class="mt-5 py-4">
+    <div class="container my-4">
+      <div class="row d-flex align-items-center">
+        <div data-aos="fade-up">
+          <div class="mt-2 text-center">
+            <h1 class="display-5 display-md-4">
+              Our Team
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  </body>
+  <!-- ? Section 2 : Team -->
+  <section id="section-5" class="pb-5">
+    <div class="bg-primary"></div>
+    <div class="container pb-5">
+      <div class="row row-cols-2 row-cols-lg-4 g-4" data-aos="fade-up" data-aos-offset="280">
+        <!-- TODO Duplicate these line -->
+        <div class="col">
+          <!-- * Card -->
+          <div class="bg-white h-100 shadow rounded">
+            <img src="https://avatars.githubusercontent.com/Kry9toN" class="card-img-top" alt="Krypton">
+            <div class="card-body text-center">
+              <h5 class="fw-bold">Dhimas Bagus</h5>
+              <p class="small text-muted text-truncate">Founder</p>
+              <a href="https://github.com/Kry9toN" target="_blank"><i
+                  class="fab fa-github fa-lg text-dark mx-1"></i></a>
+              <a href="https://t.me/Kry9toN" target="_blank"><i class="fab fa-telegram fa-lg mx-1"></i></a>
+            </div>
+          </div>
+        </div> <!-- * End of card -->
+        <div class="col">
+          <!-- * Card -->
+          <div class="bg-white h-100 shadow rounded">
+            <img src="https://avatars.githubusercontent.com/trisfaizal" class="card-img-top" alt="Trisf">
+            <div class="card-body text-center">
+              <h5 class="fw-bold">Tris Fang</h5>
+              <p class="small text-muted text-truncate">Project Manager | Core Dev</p>
+              <a href="https://github.com/trisfaizal" target="_blank"><i
+                  class="fab fa-github fa-lg text-dark mx-1"></i></a>
+              <a href="https://t.me/trisf" target="_blank"><i class="fab fa-telegram fa-lg mx-1"></i></a>
+            </div>
+          </div>
+        </div> <!-- * End of card -->
+        <div class="col">
+          <!-- * Card -->
+          <div class="bg-white h-100 shadow rounded">
+            <img src="https://avatars.githubusercontent.com/goodmeow" class="card-img-top" alt="Goodmeow">
+            <div class="card-body text-center">
+              <h5 class="fw-bold">Harun Al Rasyid</h5>
+              <p class="small text-muted text-truncate">Core Dev</p>
+              <a href="https://github.com/goodmeow" target="_blank"><i
+                  class="fab fa-github fa-lg text-dark mx-1"></i></a>
+              <a href="https://t.me/Aarunalr" target="_blank"><i class="fab fa-telegram fa-lg mx-1"></i></a>
+            </div>
+          </div>
+        </div> <!-- * End of card -->
+        <div class="col">
+          <!-- * Card -->
+          <div class="bg-white h-100 shadow rounded">
+            <img src="https://avatars.githubusercontent.com/najahiiii" class="card-img-top" alt="Najahi">
+            <div class="card-body text-center">
+              <h5 class="fw-bold">Najahi</h5>
+              <p class="small text-muted text-truncate">Core Dev</p>
+              <a href="https://github.com/najahiiii" target="_blank"><i
+                  class="fab fa-github fa-lg text-dark mx-1"></i></a>
+              <a href="https://t.me/Najahiii" target="_blank"><i class="fab fa-telegram fa-lg mx-1"></i></a>
+            </div>
+          </div>
+        </div> <!-- * End of card -->
+        <div class="col">
+          <!-- * Card -->
+          <div class="bg-white h-100 shadow rounded">
+            <img src="https://avatars.githubusercontent.com/Gnonymous7" class="card-img-top" alt="Gnonymous7">
+            <div class="card-body text-center">
+              <h5 class="fw-bold">Gnonymous</h5>
+              <p class="small text-muted text-truncate">UI Designer</p>
+              <a href="https://github.com/Gnonymous7" target="_blank"><i
+                  class="fab fa-github fa-lg text-dark mx-1"></i></a>
+              <a href="https://t.me/ImYourGege" target="_blank"><i class="fab fa-telegram fa-lg mx-1"></i></a>
+            </div>
+          </div>
+        </div> <!-- * End of card -->
+        <div class="col">
+          <!-- * Card -->
+          <div class="bg-white h-100 shadow rounded">
+            <img src="https://avatars.githubusercontent.com/aryanataandi" class="card-img-top" alt="Aryanata">
+            <div class="card-body text-center">
+              <h5 class="fw-bold">Aryanata</h5>
+              <p class="small text-muted text-truncate">Web Developer | Designer</p>
+              <a href="https://github.com/aryanataandi" target="_blank"><i
+                  class="fab fa-github fa-lg text-dark mx-1"></i></a>
+              <a href="https://t.me/aryanata_andi" target="_blank"><i class="fab fa-telegram fa-lg mx-1"></i></a>
+            </div>
+          </div>
+        </div> <!-- * End of card -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ? Footer -->
+  <footer class="bg-dark text-white">
+    <div class="container py-5 px-4 px-md-0">
+      <div class="row">
+        <div class="col-12 col-md-4 d-flex my-auto text-center text-sm-start">
+          <div class="w-100">
+            <img src="assets/brand.svg" alt="komodo os" draggable="false">
+            <p class="text-muted mt-2">Custom ROM with all their local wisdom.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 text-center text-sm-start text-md-center my-3 my-sm-0">
+          <a href="http://xda-developers.com/">XDA Thread</a>
+          <a href="http://t.me/komodosrom/">Telegram Channel</a>
+          <a href="http://t.me/komodosgroup/">Need Help?</a>
+          <a href="http://t.me/komodosgroup/">Screenshots</a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 text-center my-3">
+          <p id="maintainer">Want to build the ROM officialy?</p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdjPwX5xveh4qN2sgX_csnXXyCQ3qnwGUCM9lLUiDg4bOMVkA/viewform"
+            target="_blank" class="btn btn-primary px-4 text-dark">Join Us!</a>
+        </div>
+      </div>
+    </div>
+    <div class="container px-4">
+      <div class="text-sm-center py-3">
+        <p id="copyright" class="text-muted small">&copy; Komodo OS 2021 - by <a id="web-dev"
+            href="https://github.com/aryanataandi/komodo-web">Aryanata</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ? Scroll to top Button -->
+  <button onclick="topFunction()" class="rounded-circle shadow-lg" id="scroll-top" title="Go to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <!-- My Javascript -->
+  <script src="js/main.js"></script>
+  <script src="js/index.js"></script>
+
+</body>
+
 </html>
