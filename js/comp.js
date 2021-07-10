@@ -1,3 +1,71 @@
+// changelog
+const Reptile = {
+    template: `
+    <div>
+        <p class="display-6">
+            Reptile
+        </p>
+        <ul class="mb-5">
+            <li>June security patch android 11.0.0_r38</li>
+            <li>Added Sound tile</li>
+            <li>Added option to record for longer</li>
+            <li>Added LTE tile</li>
+            <li>Added Adaptive charging</li>
+            <li>Added runtime UI background blur</li>
+            <li>Added Statusbar Ticker</li>
+            <li>Added back signature spoofing</li>
+            <li>Added hiding lock icon on lockscreen</li>
+            <li>Clean up omnistyle header image</li>
+            <li>Explicitly make SBC Dual Channel an optional (HD) codec</li>
+            <li>Fix label tint for random color</li>
+            <li>Fixed google sans font</li>
+            <li>Improvment QS Detail layout</li>
+            <li>Improvment volume dialog code</li>
+            <li>Improvment settings layout</li>
+            <li>Improvment gaming mode</li>
+            <li>Improvment toast notification</li>
+            <li>Improvment network traffic layout</li>
+            <li>Remove glassy themes</li>
+            <li>Remove device hostname</li>
+        </ul>
+    </div>
+    `
+}
+
+const Riverdale = {
+    template: `
+    <div>
+        <p class="display-6">
+            Riverdale
+        </p>
+        <ul class="mb-5">
+            <li>May security patch android 11.0.0_r38</li>
+            <li>Added Sound tile</li>
+            <li>Added option to record for longer</li>
+            <li>Added LTE tile</li>
+            <li>Improvment QS Detail layout</li>
+            <li>Improvment volume dialog code</li>
+            <li>Improvment settings layout</li>
+            <li>Improvment gaming mode</li>
+            <li>Improvment toast notification</li>
+            <li>Improvment network traffic layout</li>
+            <li>Remove glassy themes</li>
+            <li>Remove device hostname</li>
+        </ul>
+    </div>
+    `
+}
+
+// routes
+const router = new VueRouter({
+    mode: 'history',
+    routes: [
+        { path:'/', component: Reptile },
+        { path:'/riverdale', component: Riverdale }
+    ]
+})
+
+// component
 Vue.component("navbar-component", {
   template: `
     <nav id="navbar" class="navbar navbar-index navbar-expand-lg navbar-light py-3 bg-white py-md-4">

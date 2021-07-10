@@ -42,32 +42,7 @@
         <div class="mt-5">
             <div class="row">
                 <div class="col-md-8 mb-5 order-2 order-md-1">
-                    <p class="display-6">
-                        Reptile
-                    </p>
-                    <ul class="mb-5">
-                        <li>June security patch android 11.0.0_r38</li>
-                        <li>Added Sound tile</li>
-                        <li>Added option to record for longer</li>
-                        <li>Added LTE tile</li>
-                        <li>Added Adaptive charging</li>
-                        <li>Added runtime UI background blur</li>
-                        <li>Added Statusbar Ticker</li>
-                        <li>Added back signature spoofing</li>
-                        <li>Added hiding lock icon on lockscreen</li>
-                        <li>Clean up omnistyle header image</li>
-                        <li>Explicitly make SBC Dual Channel an optional (HD) codec</li>
-                        <li>Fix label tint for random color</li>
-                        <li>Fixed google sans font</li>
-                        <li>Improvment QS Detail layout</li>
-                        <li>Improvment volume dialog code</li>
-                        <li>Improvment settings layout</li>
-                        <li>Improvment gaming mode</li>
-                        <li>Improvment toast notification</li>
-                        <li>Improvment network traffic layout</li>
-                        <li>Remove glassy themes</li>
-                        <li>Remove device hostname</li>
-                    </ul>
+                    <router-view></router-view>
                 </div>
                 <div class="col-md-4 mb-5 order-1 order-md-2">
                     <div class="bg-white shadow sidebar">
@@ -76,18 +51,18 @@
                                 <div class="bg-primary rounded text-center text-white">
                                     <p class="py-2">Latest</p>
                                 </div>
-                                <a href="#" class="d-block py-2 text-dark">Reptile</a>
+                                <router-link to="/" class="d-block py-2 text-dark">Reptile</router-link>
                                 <div class="bg-light rounded text-center mt-2">
                                     <p class="py-2">Older</p>
                                 </div>
-                                <a href="#" class="d-block py-2 text-secondary">Riverdale</a>
-                                <a href="#" class="d-block py-2 text-secondary">River</a>
-                                <a href="#" class="d-block py-2 text-secondary">Rattle</a>
-                                <a href="#" class="d-block py-2 text-secondary">Radiated</a>
-                                <a href="#" class="d-block py-2 text-secondary">Raptor</a>
+                                <router-link to="/riverdale" class="d-block py-2 text-secondary">Riverdale</router-link>
+                                <router-link to="/river" class="d-block py-2 text-secondary">River</router-link>
+                                <router-link to="/rattle" class="d-block py-2 text-secondary">Rattle</router-link>
+                                <router-link to="/radiated" class="d-block py-2 text-secondary">Radiated</router-link>
+                                <router-link to="/raptor" class="d-block py-2 text-secondary">Raptor</router-link>
                                 <hr>
                                 <div class="text-center">
-                                    <a href="">Download Now <i class="fas fa-download"></i></a>
+                                    <a href="downloads.html">Download Now <i class="fas fa-download"></i></a>
                                 </div>
                             </div>
                         </div>
