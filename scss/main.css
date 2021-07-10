@@ -11619,6 +11619,23 @@ div #section-4-quotes {
   padding-bottom: 10px;
 }
 
+#changelog-page {
+  padding-top: 100px;
+  min-height: 78vh;
+}
+
+#changelog-page ul {
+  margin-left: -14px;
+}
+
+#changelog-page ul li {
+  line-height: 2em;
+}
+
+#changelog-page .sidebar {
+  border-radius: 1.2em;
+}
+
 footer {
   background-color: #22d572;
 }

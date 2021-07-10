@@ -300,6 +300,23 @@ h6 {
   }
 }
 
+#changelog-page {
+  padding-top: 100px;
+  min-height: 78vh;
+  
+  ul {
+    margin-left: -14px;
+
+    li {
+      line-height: 2em;
+    }
+  }
+
+  .sidebar {
+    border-radius: 1.2em;
+  }
+}
+
 footer {
   background-color: $primaryColorDark;
 
