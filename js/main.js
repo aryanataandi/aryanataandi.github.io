@@ -1,3 +1,8 @@
+// Vue
+const vue = new Vue({
+  el: '#app'
+})
+
 // * Preloader
 $(document).ready(function(){
   $("#preloader").fadeOut();
