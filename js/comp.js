@@ -67,8 +67,9 @@ const router = new VueRouter({
 
 // component
 Vue.component("navbar-component", {
+  props: ['placement'],
   template: `
-    <nav id="navbar" class="navbar navbar-index navbar-expand-lg navbar-light py-3 bg-white py-md-4">
+    <nav id="navbar" :class="placement" class="navbar navbar-index navbar-expand-lg navbar-light py-3 bg-white py-md-4">
     <div class="container">
       <a class="navbar-brand" href="index.html">
         <img src="assets/brand.svg" alt="komodo os" draggable="false">
