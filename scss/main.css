@@ -11356,6 +11356,7 @@ html {
 
 body {
   font-family: "Made Tommy Regular", sans-serif;
+  overflow-x: hidden;
 }
 
 a {
