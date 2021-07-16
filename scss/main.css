@@ -11620,19 +11620,19 @@ div #section-4-quotes {
 }
 
 #changelog-page {
-  padding-top: 100px;
-  min-height: 78vh;
+  padding-top: 142px;
 }
 
-#changelog-page ul {
-  margin-left: -14px;
-}
-
-#changelog-page ul li {
+#changelog-page #changelog ul li {
   line-height: 2em;
 }
 
-#changelog-page .sidebar {
+#changelog-page #version .sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 25vh;
+  max-height: 70vh;
+  overflow-y: auto;
   border-radius: 1.2em;
 }
 

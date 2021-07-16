@@ -30,54 +30,95 @@
 
   <div id="app">
 
-  <div id="preloader"></div>
+    <div id="preloader"></div>
 
-  <navbar-component></navbar-component>
+    <navbar-component placement="sticky-top"></navbar-component>
 
-  <section id="changelog-page">
+    <section id="changelog-page" class="bg-light">
       <div class="container">
-          <h1 class="display-5 display-md-4 text-center">
-            Changelog
-          </h1>
-        <div class="mt-5">
-            <div class="row">
-                <div class="col-md-8 mb-5 order-2 order-md-1">
-                    <router-view></router-view>
-                </div>
-                <div class="col-md-4 mb-5 order-1 order-md-2">
-                    <div class="bg-white shadow sidebar">
-                        <div class="card-body">
-                            <div class="py-1">
-                                <div class="bg-primary rounded text-center text-white">
-                                    <p class="py-2">Latest</p>
-                                </div>
-                                <router-link to="/" class="d-block py-2 text-dark">Reptile</router-link>
-                                <div class="bg-light rounded text-center mt-2">
-                                    <p class="py-2">Older</p>
-                                </div>
-                                <router-link to="/riverdale" class="d-block py-2 text-secondary">Riverdale</router-link>
-                                <router-link to="/river" class="d-block py-2 text-secondary">River</router-link>
-                                <router-link to="/rattle" class="d-block py-2 text-secondary">Rattle</router-link>
-                                <router-link to="/radiated" class="d-block py-2 text-secondary">Radiated</router-link>
-                                <router-link to="/raptor" class="d-block py-2 text-secondary">Raptor</router-link>
-                                <hr>
-                                <div class="text-center">
-                                    <a href="downloads.html">Download Now <i class="fas fa-download"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="row">
+          <div id="changelog" class="col-lg-9 col-md-8 mb-5 order-2 order-md-1">
+            <p class="fs-2 mb-4">
+              Changelog
+            </p>
+            <!-- Changelog -->
+            <div id="3.0.0">
+              <p><span class="badge rounded-pill bg-primary fs-6 px-3">v3.0.0</span> - 15 July 2021</p>
+              <ul class="mb-5">
+                <li>June security patch android 11.0.0_r38</li>
+                <li>Added Sound tile</li>
+                <li>Added option to record for longer</li>
+                <li>Added LTE tile</li>
+                <li>Added Adaptive charging</li>
+                <li>Added runtime UI background blur</li>
+                <li>Added Statusbar Ticker</li>
+                <li>Added back signature spoofing</li>
+                <li>Added hiding lock icon on lockscreen</li>
+                <li>Clean up omnistyle header image</li>
+                <li>Explicitly make SBC Dual Channel an optional (HD) codec</li>
+                <li>Fix label tint for random color</li>
+                <li>Fixed google sans font</li>
+                <li>Improvment QS Detail layout</li>
+                <li>Improvment volume dialog code</li>
+                <li>Improvment settings layout</li>
+                <li>Improvment gaming mode</li>
+                <li>Improvment toast notification</li>
+                <li>Improvment network traffic layout</li>
+                <li>Remove glassy themes</li>
+                <li>Remove device hostname</li>
+              </ul>
             </div>
+            <!-- End of Changelog -->
+            <!-- Changelog -->
+            <div id="2.5.0">
+              <p><span class="badge rounded-pill bg-primary fs-6 px-3">v2.5.0</span> - 15 July 2021</p>
+              <ul class="mb-5">
+                <li>Latest security patch android 11.0.0</li>
+                <li>Clean up omnistyle header image</li>
+                <li>Explicitly make SBC Dual Channel an optional (HD) codec</li>
+                <li>Fix label tint for random color</li>
+                <li>Fixed google sans font</li>
+                <li>Improvment QS Detail layout</li>
+                <li>Improvment volume dialog code</li>
+                <li>Improvment settings layout</li>
+                <li>Improvment gaming mode</li>
+                <li>Improvment toast notification</li>
+                <li>Improvment network traffic layout</li>
+                <li>Remove glassy themes</li>
+                <li>Remove device hostname</li>
+              </ul>
+            </div>
+            <!-- End of Changelog -->
+          </div>
+          <div id="version" class="col-lg-3 col-md-4 mb-5 order-1 order-md-2">
+            <div class="bg-white shadow sidebar">
+              <div class="card-body">
+                <div class="py-1">
+                  <div class="bg-primary rounded text-center text-white position-sticky">
+                    <p class="py-2">Latest</p>
+                  </div>
+                  <a href="#3.0.0" class="d-block py-1 text-dark">v3.0.0</a>
+                  <div class="bg-light rounded text-center mt-2">
+                    <p class="py-2">Older</p>
+                  </div>
+                  <a href="#2.5.0" class="d-block py-1 text-secondary">v2.5.0</a>
+                  <a href="#" class="d-block py-1 text-secondary">v2.0.0</a>
+                  <a href="#" class="d-block py-1 text-secondary">v1.2.0</a>
+                  <a href="#" class="d-block py-1 text-secondary">v1.0.0</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        </section>
-        
-        <footer-component></footer-component>
-        
-  <!-- ? Scroll to top Button -->
-  <button onclick="topFunction()" class="rounded-circle shadow-lg" id="scroll-top" title="Go to top">
-    <i class="fas fa-arrow-up"></i>
-  </button>
+      </div>
+    </section>
+
+    <footer-component></footer-component>
+
+    <!-- ? Scroll to top Button -->
+    <button onclick="topFunction()" class="rounded-circle shadow-lg" id="scroll-top" title="Go to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
 
   </div>
 
@@ -94,7 +135,7 @@
     integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <!-- My Javascript -->
   <script src="js/main.js"></script>
-  <script src="js/index.js"></script>
+  <!-- <script src="js/index.js"></script> -->
 
 </body>
 
