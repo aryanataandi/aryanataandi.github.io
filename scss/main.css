@@ -11503,7 +11503,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   width: 100%;
   height: 100%;
   background: #fff url("../assets/loader.svg") no-repeat center;
-  background-size: 4%;
+  background-size: 75px;
   z-index: 9999;
 }
 
